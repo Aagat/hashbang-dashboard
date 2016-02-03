@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Aagat/hashbang-dashboard/issues"
   },
-  "homepage": "https://github.com/Aagat/hashbang-dashboard#readme"
+  "homepage": "https://github.com/Aagat/hashbang-dashboard#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^2.5.3",
+    "ssh2": "^0.4.13"
+  }
 }
