@@ -1,0 +1,25 @@
+{
+  "name": "hashbang-dashboard",
+  "version": "1.0.0",
+  "description": "A SSHable command line dashboard for #!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aagat/hashbang-dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "#!",
+    "ssh",
+    "ncurses"
+  ],
+  "author": "Aagat Adhikari <hi@aagat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aagat/hashbang-dashboard/issues"
+  },
+  "homepage": "https://github.com/Aagat/hashbang-dashboard#readme"
+}
