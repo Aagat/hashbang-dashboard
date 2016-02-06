@@ -109,7 +109,7 @@ new Server(configuration, function(client) {
 				}
 
 				screen.key(['escape', 'q', 'C-c'], function(ch, key) {
-					return process.exit(0);
+					stream.end();
 				});
 
 				screen.render()
@@ -117,7 +117,7 @@ new Server(configuration, function(client) {
 			});
 		});
 	});
-	
+
 	client.on('end', function(){
 		// ingore
 	});
